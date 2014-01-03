@@ -1,0 +1,38 @@
+---
+- !ruby/object:Wizard
+  attack_str: 25
+  defense_str: 40
+  element: 1
+  health_current: 100
+  health_max: 100
+  name: Alab
+  type: person
+  award_points: 50
+  heal_str: 5
+  mission_completed: 8
+  att_def_affinity: def
+  spell_str: 20
+- !ruby/object:Medic
+  attack_str: 25
+  defense_str: 40
+  element: 2
+  health_current: 120
+  health_max: 120
+  name: Buster
+  type: person
+  award_points: 50
+  heal_str: 20
+  mission_completed: 8
+  att_def_affinity: def
+- !ruby/object:Warrior
+  attack_str: 25
+  defense_str: 45
+  element: 3
+  health_current: 100
+  health_max: 100
+  name: Cru
+  type: person
+  award_points: 50
+  heal_str: 5
+  mission_completed: 8
+  att_def_affinity: def
